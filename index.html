@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>SignUp Card</title>
+</head>
+
+<body>
+    <section class="signup__container">
+        <div class="signup__card">
+            <p class="signup__card__title">Colorado Art Rock Society</p>
+            <h1 class="signup__card__heading">Create Your Account</h1>
+            <p class="signup__card__para" >Create your account to get updates 
+                about upcoming meetings, events and access to exclusive content.</p>
+           
+            <form class="signup__card__form" action="">
+                <label class="signup__card__label" for="email">Your Email
+                    <span class="signup__card_form_tooltip"
+                          data-tooltip="Please enter your email address.">?</span>
+                </label>
+                <input class="signup__card__input"  type="email" id="email" name="email">
+                
+                <div class="passwordInput">
+                    <label class="signup__card__label" for="password">Password        
+                        <span class="signup__card_form_tooltip"
+                              data-tooltip="Must contain a mininimum of 8 characters with one capital letter and one number.">?</span>
+                    </label>
+                    <input class="signup__card__input"  type="password" id="password" name="password">
+                    <i class="passwordEye far fa-eye-slash" id="passwordEyeIcon"></i>
+                </div>
+
+                <div class="passwordInput">
+                    <label class="signup__card__label" for="reenterPassword">Re-enter password</label>
+                    <input class="signup__card__input"  type="password" id="reenterPassword" name="reenterPassword">    
+                    <i class="passwordEye far fa-eye-slash" id="reenterPasswordEyeIcon"></i>
+                </div>
+
+                <label class="signup__card__label" for="about">Tell us about yourself
+                    <span class="signup__card_form_tooltip"
+                          data-tooltip="Nothing formal, just introduce yourself. 
+                                        What are your favorite prog artists, 
+                                        do you play an instrument, 
+                                        how did you discover proggressive music, etc. 
+                     ">?</span>
+                </label>
+                <textarea class="signup__card__textarea"id="about" name="about"></textarea>
+            </form>
+
+            <button class="signup__card__button">Create Your Account</button>
+
+        </div>
+
+    </section>
+    
+
+    <script  src="passwordEyeToggle.js"></script>
+    <!-- <script  src="reenterPasswordEyeToggle.js"></script> -->
+    
+
+
+    
+</body>
+</html>
