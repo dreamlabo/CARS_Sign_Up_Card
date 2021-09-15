@@ -28,5 +28,4 @@ const setIconAndClassName = () => {
         passwordEyeIcon.className = classNameDontShowPassword;
         reenterPasswordEyeIcon.className = classNameDontShowPassword;
     }
-
 }
