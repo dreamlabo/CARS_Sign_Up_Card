@@ -34,9 +34,10 @@
     box-sizing: border-box;
 } 
 
-p {
+body, p {
     margin: 0;
     padding: 0;
+    font-family: 'Karla', sans-serif;
 }
 
 
@@ -44,18 +45,21 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: fit-content;
-    min-height: 100vh;
+    /* height: fit-content; */
+    height: 100vh;
     background-color: var(--clr-dark);
     color: var(--clr-opacity-light);
     font-size: var(--fs-1);
     font-weight: var(--fw-3);
     line-height: 1.6;
+    background-image: url(/images/microphone.jpg) ;
+    background-size: contain;
+    background-blend-mode: multiply;
 }
 
 .signup__card {
     font-family: 'Karla', sans-serif;
-    background: var(--clr-med);
+    background-color: var(--clr-med);
     width: 398px; 
     min-height: 65vh;
     height: fit-content;
@@ -151,6 +155,7 @@ p {
     min-width: 100%;
     min-height: 4em;
     padding: .1em .5em;
+    font-family: 'Karla', sans-serif;
 }
 
 .signup__card__button {
