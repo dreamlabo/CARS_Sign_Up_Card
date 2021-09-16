@@ -7,7 +7,7 @@ Prototype of a Sign Up Card I created for a project I'm currently working on.
   * JavaScript
   * VS Code
 
-youtube video:
+##### youtube video:
 https://youtu.be/wZNYlGh8VBY
 
 #### Screenshot of the SignUp Card
