@@ -45,8 +45,8 @@ body, p {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* height: fit-content; */
-    height: 100vh;
+    height: fit-content;
+    min-height: 100vh;
     background-color: var(--clr-dark);
     color: var(--clr-opacity-light);
     font-size: var(--fs-1);
@@ -147,6 +147,9 @@ body, p {
 }
 
 .signup__card__textarea {  
+    /* all: unset;
+    box-sizing: border-box; */
+    outline: none;
     display: block;
     background:rgba(0, 0, 0, .25);
     border: none;
@@ -174,6 +177,7 @@ body, p {
     box-shadow: 0 0 0  rgb(0, 0, 0, 0);
 }
 
+.signup__card__button:focus,
 .signup__card__button:hover {
     background: var(--clr-dark);
     color: var(--clr-opacity-light);
